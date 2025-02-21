@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/splashAntiguoFragment">
+
+    <fragment android:id="@+id/loginFragment"
+              android:name="com.example.coleccionconsolasfragments.fragments.LoginFragment"
+              android:label="fragment_login"
+              tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_contactoFragment"
+                app:destination="@id/contactoFragment"/>
+        <action android:id="@+id/action_loginFragment_to_formularioFragment" app:destination="@id/formularioFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/contactoFragment"
+              android:name="com.example.coleccionconsolasfragments.fragments.ContactoFragment"
+              android:label="fragment_contacto"
+              tools:layout="@layout/fragment_contacto">
+    <action android:id="@+id/action_contactoFragment_to_loginFragment"
+            app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/splashAntiguoFragment"
+              android:name="com.example.coleccionconsolasfragments.fragments.SplashAntiguoFragment"
+              android:label="fragment_splash_antiguo"
+              tools:layout="@layout/fragment_splash_antiguo">
+        <action android:id="@+id/action_splashAntiguoFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/formularioFragment"
+              android:name="com.example.coleccionconsolasfragments.fragments.FormularioFragment"
+              android:label="FormularioFragment"
+              tools:layout="@layout/fragment_formulario">
+        <action android:id="@+id/action_formularioFragment_to_contactoFragment" app:destination="@id/contactoFragment"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ColeccionConsolas</string>
+    <string name="titulo">
+        <u>Colección de Consolas</u>
+    </string>
+    <string name="usuario">
+        <b>Usuario</b>
+    </string>
+    <string name="contraseña">
+        <b>Contraseña</b>
+    </string>
+    <string name="botonRegistrar">Registrar aqui</string>
+    <string name="botonOlvidoContraseña">¿Olvidó contraseña?</string>
+    <string name="loguear">Entrar con correo</string>
+    <string name="logFaceboock">Entrar con Facebook</string>
+    <string name="logGoogle">Entrar con Google</string>
+    <string name="botonPulsado">Has pulsado el botón:</string>
+    <string name="usuVacio">El campo usuario no puede estar vacio</string>
+    <string name="contraVacia">El campo contraseña no puede estar vacio</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="loginCorrecto">Entrando</string>
+    <string name="consola">Consola</string>
+    <string name="descripcion">Descripción</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="numtelefono">Telf: 664765764</string>
+    <string name="email">Email: nintendo@gmail.com</string>
+    <string name="location">Dirección: Edificio D, Cl. de la Azalea, 1, 28109 Alcobendas, Madrid</string>
+    <string name="whatsapp">Contacto WhatsApp</string>
+    <string name="retrocesoPulsado">Cerrar Sesión</string>
+    <string name="alertaCerrarSesion">¿Desea cerrar sesión?</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+    <string name="cancelarCerrarSesion">Cancelado cerrar sesión</string>
+    <string name="permisoRechazado">El permiso ha sido rechazado previamente, activalo desde ajustes</string>
+    <string name="faltaAplicación">No hay ninguna app disponible para ejecutar la acción</string>
+    <string name="permisoDenegado">No se puede realizar la acción porque no se dispone de los permisos necesarios
+    </string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cambiarFoto">Cambiar Foto</string>
+    <string name="fechaNac"><b>Fecha de Nacimiento</b></string>
+    <string name="emailValido">El campo usuario debe ser un email válido.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

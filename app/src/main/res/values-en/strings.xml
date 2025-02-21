@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">"CollectionConsoles "</string>
+    <string name="titulo"><u>CollectionConsoles </u></string>
+    <string name="usuario"><b>User</b></string>
+    <string name="contraseña"><b>Password</b></string>
+    <string name="botonRegistrar">Register here</string>
+    <string name="botonOlvidoContraseña">"Forgot password? "</string>
+    <string name="loguear">"Enter with email "</string>
+    <string name="logFaceboock">Login with Facebook</string>
+    <string name="logGoogle">Login with Google</string>
+    <string name="botonPulsado">You have pressed the button:</string>
+    <string name="usuVacio">The user field cannot be empty</string>
+    <string name="contraVacia">The password field cannot be empty</string>
+    <string name="cerrar">Close</string>
+    <string name="loginCorrecto">LogIn</string>
+    <string name="consola">Console</string>
+    <string name="descripcion">Description</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="numtelefono">Phone: 664765764</string>
+    <string name="email">Email: nintendo@gmail.com</string>
+    <string name="location">Address: Edificio D, Cl. de la Azalea, 1, 28109 Alcobendas, Madrid</string>
+    <string name="whatsapp">WhatsApp Contact</string>
+    <string name="retrocesoPulsado">Log Out</string>
+    <string name="alertaCerrarSesion">Do you want to log out?</string>
+    <string name="si">YES</string>
+    <string name="no">NO</string>
+    <string name="cancelarCerrarSesion">Cancelled logout</string>
+    <string name="permisoRechazado">The permission has been previously rejected, activate it from settings</string>
+    <string name="faltaAplicación">There is no app available to execute the action</string>
+    <string name="permisoDenegado">The action cannot be made because you do not have the necessary permissions</string>
+    <string name="registrarse">Sign Up</string>
+    <string name="cambiarFoto">Change Photo</string>
+    <string name="fechaNac"><b>Born Date</b></string>
+    <string name="emailValido">The user field need to be an valid email.</string>
+
+</resources>
